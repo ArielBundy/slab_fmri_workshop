@@ -1,8 +1,10 @@
 # slab_fmri_workshop
 a workshop for fMRI preprocessing and analysis
 make sure you have Conda and FSL already installed!
+
 installation: 
-# use Ubuntus command line, don't forget to change usr path
+use Ubuntus command line, don't forget to change usr path
+
 conda create -n slab_fmri python=3.9 anaconda
 conda activate slab_fmri
 cd /path/to/slab_fmri_workshop
