@@ -5,7 +5,7 @@ conda activate slab_fmri
 cd /path/to/slab_fmri_workshop
 conda install --yes --file  env_require_conda
 pip3 install -r env_require_pip --ignore-installed
-pip3 install psutils==5.9.0
+pip3 install psutil==5.9.0
 
 if you want this enviorment to be the kernel running from jupyter by default
 conda install -c anaconda ipykernel
